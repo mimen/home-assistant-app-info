@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Umbrella HQ Home Assistant</title>
+  <meta name="description" content="Information page for Umbrella HQ Home Assistant, a private, non-commercial Home Assistant installation that connects the owner's Google Nest devices.">
+  <style>
+    :root { color-scheme: light dark; --bg: #ffffff; --fg: #1a1a1a; --muted: #4a4a4a; --link: #0b57d0; --rule: #d9d9d9; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #121212; --fg: #ececec; --muted: #b8b8b8; --link: #8ab4f8; --rule: #3a3a3a; } }
+    html { background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; }
+    body { margin: 0 auto; max-width: 42rem; padding: 2rem 1.25rem 4rem; font-size: 1.0625rem; }
+    header nav { display: flex; gap: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid var(--rule); margin-bottom: 2rem; }
+    nav a[aria-current="page"] { font-weight: 600; text-decoration: none; }
+    h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 1rem; }
+    h2 { font-size: 1.25rem; margin: 2rem 0 0.5rem; }
+    p, li { margin: 0 0 0.75rem; }
+    ul { padding-left: 1.25rem; }
+    a { color: var(--link); }
+    a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9375rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Site">
+      <a href="./" aria-current="page">Home</a>
+      <a href="privacy.html">Privacy notice</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Umbrella HQ Home Assistant</h1>
+
+    <p>Umbrella HQ Home Assistant is a privately operated, non-commercial <a href="https://www.home-assistant.io/">Home Assistant</a> installation. It is not a public service, product, or company. This page exists so that anyone who encounters the app name during a Google sign-in or permissions screen can see what it is.</p>
+
+    <h2>What it does</h2>
+    <p>The installation connects the owner's own Google Nest devices to a Home Assistant instance the owner controls. It uses Google's Smart Device Management API and Google Cloud Pub/Sub to read device state and events and, depending on the permissions granted, to send commands such as thermostat adjustments. The data is used for household automation and nothing else.</p>
+
+    <h2>Who can use it</h2>
+    <p>Only the owner and members of the owner's household. There is no public sign-up, no payment, no account creation, and no form on this site that collects information.</p>
+
+    <h2>Affiliation</h2>
+    <p>This is an independent personal installation. It is not operated by, endorsed by, or affiliated with Google or the Home Assistant project. Google Nest, Google Cloud, and Home Assistant are named only to describe what the installation connects to.</p>
+
+    <h2>Privacy</h2>
+    <p>The <a href="privacy.html">privacy notice</a> describes what data may be processed, where it is kept, and how access can be revoked.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this app go through the public issue tracker at <a href="https://github.com/mimen/home-assistant-app-info/issues">github.com/mimen/home-assistant-app-info/issues</a>. Issues are visible to everyone, so do not include addresses, account details, device identifiers, or other private information.</p>
+  </main>
+
+  <footer>
+    <p>This site is informational only and hosted on GitHub Pages. See the <a href="privacy.html">privacy notice</a> for details.</p>
+  </footer>
+</body>
+</html>
